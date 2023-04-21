@@ -43,5 +43,7 @@ def decrypt(ciphertext, key):
         plaintext += _encrypt_decrypt_char(ciphertext_char, key_char, mode='decrypt')
     return plaintext
 # user input
+plaintext = input('Enter a message: ')
+key = input('Enter a key: ')
 # output
 # additional

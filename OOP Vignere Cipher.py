@@ -61,5 +61,7 @@ window = Tk()
 #tab manager
 notebook = ttk.Notebook(window)
 # add tabs
+tab1 = Frame(notebook)
+tab2 = Frame(notebook)
 # add text to tabs
 # output

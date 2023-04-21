@@ -29,6 +29,12 @@ def _encrypt_decrypt_char(plaintext_char, key_char, mode='encrypt'):
         return chr(new_char_position + ord(first_alphabet_letter))
     return plaintext_char
 # encrypt
+def encrypt(plaintext, key):
+    ciphertext = ''
+    padded_key = _pad_key(plaintext, key)
+    for plaintext_char, key_char in zip(plaintext, padded_key):
+        ciphertext += _encrypt_decrypt_char(plaintext_char, key_char)
+    return ciphertext
 # decrypt
 # user input
 # output

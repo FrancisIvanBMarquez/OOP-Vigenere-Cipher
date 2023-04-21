@@ -54,6 +54,12 @@ decrypted_plaintext = decrypt(ciphertext, key)
 # window tabs
 
 # import
+from tkinter import *
+from tkinter import ttk
+
+window = Tk()
+#tab manager
+notebook = ttk.Notebook(window)
 # add tabs
 # add text to tabs
 # output

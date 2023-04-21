@@ -36,6 +36,12 @@ def encrypt(plaintext, key):
         ciphertext += _encrypt_decrypt_char(plaintext_char, key_char)
     return ciphertext
 # decrypt
+def decrypt(ciphertext, key):
+    plaintext = ''
+    padded_key = _pad_key(ciphertext, key)
+    for ciphertext_char, key_char in zip(ciphertext, padded_key):
+        plaintext += _encrypt_decrypt_char(ciphertext_char, key_char, mode='decrypt')
+    return plaintext
 # user input
 # output
 # additional

@@ -1,5 +1,6 @@
 # Vigenere Cipher_Marquez Francis Ivan B._BSCpE 1-5
 # Vigenere Cipher by BasselTech https://www.youtube.com/watch?v=m04k32-QaAc
+# Window tabs by Bro Code https://www.youtube.com/watch?v=4bMU1xAolSg
 
 # adding characters
 def _pad_key(plaintext, key):
@@ -48,6 +49,6 @@ key = input('Enter a key: ')
 # output
 ciphertext = encrypt(plaintext, key)
 decrypted_plaintext = decrypt(ciphertext, key)
-print(f'Ciphertext: {ciphertext}')
-print(f'Decrypted Plaintext: {decrypted_plaintext}')
+
 # additional
+# window tabs

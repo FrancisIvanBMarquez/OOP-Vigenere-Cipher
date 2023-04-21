@@ -46,4 +46,8 @@ def decrypt(ciphertext, key):
 plaintext = input('Enter a message: ')
 key = input('Enter a key: ')
 # output
+ciphertext = encrypt(plaintext, key)
+decrypted_plaintext = decrypt(ciphertext, key)
+print(f'Ciphertext: {ciphertext}')
+print(f'Decrypted Plaintext: {decrypted_plaintext}')
 # additional

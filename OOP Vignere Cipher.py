@@ -52,3 +52,8 @@ decrypted_plaintext = decrypt(ciphertext, key)
 
 # additional
 # window tabs
+
+# import
+# add tabs
+# add text to tabs
+# output

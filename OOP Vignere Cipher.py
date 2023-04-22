@@ -69,3 +69,7 @@ notebook.add(tab2,text="Plaintext")
 notebook.pack(expand=True,fill="both")
                                      
 # output
+Label(tab1,text=ciphertext,width=50,height=25).pack()
+Label(tab2,text=decrypted_plaintext,width=50,height=25).pack()
+
+window.mainloop()

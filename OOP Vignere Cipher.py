@@ -64,4 +64,8 @@ notebook = ttk.Notebook(window)
 tab1 = Frame(notebook)
 tab2 = Frame(notebook)
 # add text to tabs
+notebook.add(tab1,text="Vigenere Cipher")
+notebook.add(tab2,text="Plaintext")
+notebook.pack(expand=True,fill="both")
+                                     
 # output
